@@ -2,7 +2,8 @@ var i = 0
 var t = setInterval(function() {
 console.log('i=',i)
 i++
-if(i === 5) {
+if(i === 10) {
+    console.log('complete')
     clearInterval(t)
 }
 },1000)
